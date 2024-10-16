@@ -1,0 +1,34 @@
+.shardz-chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+@media (max-width: 768px) {
+    .shardz-mobile-menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+
+    .shardz-mobile-menu a {
+        text-decoration: none;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shardz-mobile-menu svg {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 5px;
+    }
+}
